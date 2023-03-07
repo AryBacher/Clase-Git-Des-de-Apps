@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Práctica GitHub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <div class="text-center container">
+    <div class="jumbotron">
+        <h1 class="display-4">¡Bienvenidos!</h1>
+        <p class="lead">Esta página va a doblar tanto de consigna como de archivo para que ustedes editen</p>
+        <hr class="my-4">
+        <p>Esta actividad es para hacerse de a dos personas en <strong>computadoras distintas</strong>. Para que resulte más entendible la consigna, los vamos a llamar <strong>A</strong> y <strong>B</strong></p>
+        <p>Pueden descargar los archivos de la consigna de: </p>
+    </div>
+    <div class="accordion" id="consigna">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Punto 1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#consigna">
+                <div class="accordion-body">
+                  <strong>A</strong> descarga los archivos de este repositorio y los sube a un nuevo repositorio propio. <strong>A</strong> lo agrega a <strong>B</strong> como colaborador, para más información accedan a este <a href="https://docs.github.com/en/authentication/managing-access-to-your-repositories/inviting-collaborators-to-a-personal-repository">link</a>. Tanto <strong>A</strong> como <strong>B</strong> deben clonar el repositorio en sus máquinas
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Punto 2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#consigna">
+                <div class="accordion-body">
+                  Ahora, cada uno hace cambios al archivo en la sección asignada para este punto, agregando su nombre en el lugar asignado, y la mejor experiencia/anécdota que tuvieron en TIC. <strong>B</strong> pushea primero, luego <strong>A</strong> pullea. ¿Qué ocurre? Luego, si no hay conflictos, <strong>A</strong> pushea.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Punto 3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#consigna">
+                <div class="accordion-body">
+                  Ahora, ambos modifiquen el texto del punto 3 por algo más apropiado. Cada uno escriba algo distinto. Ahora <strong>A</strong> pushea primero, y <strong>B</strong> pullea. ¿Qué ocurre? Solucionar el merge conflict con algo acordado entre los 2, y pushear
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Punto 4
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#consigna">
+                <div class="accordion-body">
+                  <strong>B</strong> ahora crea una branch. En el punto 4, incluir alguna imagen/meme que ustedes quieran (googleen como poner una imagen en html). <strong>B</strong> lo hace en su branch, <strong>A</strong> en la branch principal. Ambos pushean. Vean como se comporta en github
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  Punto 5
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#consigna">
+                <div class="accordion-body">
+                  <strong>A</strong> ahora cambia al branch principal localmente y pullea. Mergea en este branch la branch propia creada. <strong>A</strong> soluciona el merge conflict (acordando con <strong>B</strong>) si lo hubiese.               
+                </div>
+              </div>
+            </div>
+    </div>
+    <!-- Para completar -->
+    <div class="card">
+        <div class="card-body">
+          <h5 class="card-header">Punto 2</h5>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                Acá escribe A
+              </div>
+              <div class="vr"></div>
+              <div class="col-sm">
+                Acá escribe B
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+            <div class="card-body">
+            <h5 class="card-header">Punto 3</h5>
+            <p><i>Lo que más espero de 5to año es rendir pruebas de matemática</i></p>
+            </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+        <h5 class="card-header">Punto 4</h5>
+        <p>Reemplazar por una imagen</p>
+        </div>
+  </div>
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
